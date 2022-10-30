@@ -1,0 +1,19 @@
+.timer {
+  display: flex;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  .value {
+    font-size: 2rem;
+  }
+}
